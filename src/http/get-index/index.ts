@@ -10,7 +10,7 @@ export async function handler(req: object) {
       "cache-control":
         "no-cache, no-store, must-revalidate, max-age=0, s-maxage=0",
     },
-    bod: JSON.stringify(body),
+    body: JSON.stringify(body),
   };
 }
 
